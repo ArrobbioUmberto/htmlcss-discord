@@ -154,15 +154,17 @@ header .row{
 #grey{
     background-color: grey;
 }
-.row-col-2 > .col{
+.middle.col{
     flex-basis: 40% ;
 }
 #bigger{
-    flex-basis: 66,6%;
+    flex-basis: 60%;
 }
 .middle > .row{
     min-height: 600px ;
     font-family: 'Rubik', sans-serif;;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 /* quarto blocco  */
