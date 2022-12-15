@@ -184,6 +184,7 @@ header .row{
 .last .row{
     min-height: 600px;
     justify-content: center;
+    flex-direction: column;
 }
 .last .col{
     display: flex;
@@ -198,7 +199,7 @@ header .row{
     background-size: contain;
     background-repeat: no-repeat;
     font-size: 20px;
-    flex-basis: 100%;
+    padding: 30px;
 }
 #big-image{
     width: 100%;
@@ -231,6 +232,7 @@ footer{
     min-height: 150px;
     padding-top: 30px;
     padding-bottom: 50px;
+    border-top: 2px solid  #7289da;
 }
 #colonna{
     flex-basis: calc(100% / 3);
@@ -246,4 +248,16 @@ li{
     list-style-type: none;
     padding: 10px;
     color: white;
+}
+#register{
+    width: 120px;
+    background-color: #7289da;
+    border-radius: 20px;
+    line-height: 20px;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    font-weight: lighter;
+    color:white;
+    font-size: 13px;
 }
