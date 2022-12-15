@@ -68,6 +68,7 @@ a{
 header{
     background-color: #255ee9;
     padding: 10px;
+    font-family: 'Rubik', sans-serif;
 }
 
 header .row{
@@ -85,6 +86,7 @@ header .row{
 #link{
     flex-basis: 50%;
     text-align: center;
+    font-weight: lighter;
 }
 #login{
     width: 80px;
@@ -94,6 +96,7 @@ header .row{
     padding: 5px;
     text-align: center;
     display: inline-block;
+    font-weight: lighter;
 }
 
 /* secondo blocco  */
@@ -127,11 +130,24 @@ header .row{
 .text{
     font-weight: lighter;
     padding-bottom: 10px;
+    text-align: center;
 }
 .button{
-    padding: 0 10px;
+    margin: 0 10px;
+    font-weight: lighter;
+    padding: 5px 15px;
     border-radius: 20px;
-    border: 1px solid black;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+}
+#download{
+    background-color: white;
+    color: black;
+}
+#browser{
+    background-color: black;
+    color: white;
 }
 
 /* terzo blocco */
