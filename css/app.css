@@ -102,11 +102,22 @@ header .row{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.front .col{
+    color: white;
+}
 .front{
     max-width: 800px;
 }
 .front > .row{
     min-height: 400px;
+}
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
+.text{
+    font-family: 'Rubik', sans-serif;
 }
 
 /* terzo blocco */
