@@ -151,22 +151,18 @@ header .row{
 }
 
 /* terzo blocco */
-#white{
-    background-color: white;
-}
 #grey{
     background-color: grey;
 }
 .row-col-2 > .col{
-    flex-basis: calc(100% / 3);
+    flex-basis: 40% ;
 }
 #bigger{
-    flex-grow: 1;
-    background-color: cornflowerblue;
+    flex-basis: 66,6%;
 }
 .middle > .row{
-    min-height: 500px ;
-    background-color: pink;
+    min-height: 600px ;
+    font-family: 'Rubik', sans-serif;;
 }
 
 /* quarto blocco  */
@@ -196,6 +192,6 @@ header .row{
     background-color: sandybrown;
 }
 #colonna{
-    flex-basis: calc(100% / 3                 );
+    flex-basis: calc(100% / 3);
     background-color: pink;
 }
