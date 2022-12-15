@@ -153,7 +153,7 @@ header .row{
 
 /* terzo blocco */
 #grey{
-    background-color: grey;
+    background-color: #f6f6f6;
 }
 .middle .col{
     flex-basis: 40% ;
@@ -184,8 +184,32 @@ header .row{
 .last .row{
     min-height: 600px;
 }
+.last .col{
+    display: flex;
+    justify-content: center;
+}
 .last{
+    display: flex;
     flex-basis: 100%;
+    font-family: 'Rubik', sans-serif;
+}
+.stars{
+    background-image: url(./../img/stars.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-basis: 100%;
+    font-size: 20px;
+}
+#big-image{
+    width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+}
+#download-end-page{
+    background-color: #7289da;
+    color: white;
+    align-items: center;
 }
 
 /* zona blocco foooter e colonne all'interno */
