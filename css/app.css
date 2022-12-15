@@ -57,10 +57,18 @@
     display: flex;
     flex-wrap: wrap;
 }
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0 8px;
+}
 
 /* inizio zona header  */
 
-
+header{
+    background-color: #255ee9;
+    padding: 10px;
+}
 
 header .row{
     justify-content: space-between;
@@ -68,7 +76,7 @@ header .row{
 }
 .row-col-3 > .col{
     flex-basis: 25%;
-    background-color: green;
+    background-color: #255ee9;
 }
 #link{
     flex-basis: 50%;
@@ -76,6 +84,11 @@ header .row{
 }
 #login{
     text-align: end;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    line-height: 10px;
+    align-self: flex-end;
 }
 
 /* secondo blocco  */
