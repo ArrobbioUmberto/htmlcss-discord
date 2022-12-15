@@ -83,12 +83,13 @@ header .row{
     text-align: center;
 }
 #login{
-    text-align: end;
-    display: flex;
+    width: 80px;
     background-color: white;
-    border-radius: 10px;
-    line-height: 10px;
-    align-self: flex-end;
+    border-radius: 20px;
+    line-height: 30px;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
 }
 
 /* secondo blocco  */
