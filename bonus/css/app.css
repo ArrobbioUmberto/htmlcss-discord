@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.debug header{
+    background-color: salmon;
+    min-height: 80px;
+}
+.debug .up{
+    padding: 20px;
+    border: 1px dotted black;
+}
+.debug .row{
+    border: 1px dotted black;
+}
+.debug .col{
+    border: 1px dotted black;
+}
+.debug section{
+    background-color: blue;
+    min-height: 500px;
+}
+.debug .front{
+    padding: 50px;
+    border: 1px dotted black;
+}
+.debug .middle{
+    padding: 50px;
+    border: 1px dotted black;
+}
+.debug .last{
+    padding: 50px;
+    border: 1px dotted black;
+}
+.debug footer{
+    background-color: black;
+}
+.debug .start{
+    padding-top: 5px;
+    padding-bottom: 30px;
+    border: 1px dotted black;   
+}
+.debug .end{
+    padding-top: 10px;
+}
+
+/* fine zona debug  */
+
+
+/* parte di stile con blocchi  */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0 8px;
+}
+
+/* inizio zona header  */
+
+header{
+    background-color: #255ee9;
+    padding: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+
+header .row{
+    justify-content: space-between;
+    align-items: center;
+}
+.row-col-3 > .col{
+    flex-basis: 25%;
+    background-color: #255ee9;
+}
+.accedi{
+    display: flex;
+    justify-content: end;
+}
+#link{
+    flex-basis: 50%;
+    text-align: center;
+    font-weight: lighter;
+}
+#login{
+    width: 80px;
+    background-color: white;
+    border-radius: 20px;
+    line-height: 30px;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    font-weight: lighter;
+    color: black;
+}
+
+/* secondo blocco  */
+.banner{
+    background-image: url(./../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    min-height: 500px;
+}
+.front .col{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+
+}
+.row.presentation{
+    justify-content: center;
+}
+
+.front{
+    display: flex;
+    align-items: center;
+    max-width: 700px;
+    min-height: 500px;
+   
+}
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px 0;  
+}
+.text{
+    font-weight: lighter;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.button{
+    margin: 0 10px;
+    font-weight: lighter;
+    padding: 5px 15px;
+    border-radius: 20px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+}
+#download{
+    background-color: white;
+    color: black;
+}
+#browser{
+    background-color: black;
+    color: white;
+}
+
+/* terzo blocco */
+#grey{
+    background-color: #f6f6f6;
+}
+.middle .col{
+    flex-basis: 40% ;
+    padding: 0 20px;
+}
+#bigger{
+    flex-basis: 60%;
+}
+.middle > .row{
+    min-height: 600px ;
+    font-family: 'Rubik', sans-serif;;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.title.middle{
+    font-weight: 700;
+    line-height: 55px;
+}
+.text.aside{
+    text-align: unset;
+    line-height: 25px;
+}
+
+
+/* quarto blocco  */
+
+.last .row{
+    min-height: 600px;
+    justify-content: center;
+    flex-direction: column;
+}
+.last .col{
+    display: flex;
+    justify-content: center;
+}
+.last{
+    min-height: 1000px;
+    font-family: 'Open Sans', sans-serif;
+}
+#stars{
+    background-image: url(./../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    padding: 30px;
+}
+#big-image{
+    width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+}
+#download-end-page{
+    background-color: #7289da;
+    color: white;
+    margin: 20px;
+}
+
+/* zona blocco foooter e colonne all'interno */
+footer{
+    background-color: #23272a;
+    font-family: 'Open Sans', sans-serif;
+}
+.row-col-6 > .col{
+    flex-basis: calc(100% / 6);
+}
+.footer-start > .row{
+    flex-wrap: wrap;
+    min-height: 550px;
+    padding-top: 70px;
+}
+.footer-end > .row{
+    align-items: center;
+    justify-content: space-between;
+    min-height: 150px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-top: 2px solid  #7289da;
+}
+#colonna{
+    flex-basis: calc(100% / 3);
+}
+.flag{
+    width: 20px;
+    height: 13px;
+}
+li:first-child{
+    color:#6174b5 ;
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+    color: white;
+}
+#register{
+    width: 120px;
+    background-color: #7289da;
+    border-radius: 20px;
+    line-height: 20px;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    font-weight: lighter;
+    color:white;
+    font-size: 13px;
+}
