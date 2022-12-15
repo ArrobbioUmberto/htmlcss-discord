@@ -78,7 +78,7 @@ header .row{
     flex-basis: 25%;
     background-color: #255ee9;
 }
-.button{
+.accedi{
     display: flex;
     justify-content: end;
 }
@@ -100,24 +100,38 @@ header .row{
 .banner{
     background-image: url(./../img/jumbo.png);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    min-height: 500px;
 }
 .front .col{
     color: white;
+    font-family: 'Rubik', sans-serif;
+
 }
+.row.presentation{
+    justify-content: center;
+}
+
 .front{
-    max-width: 800px;
-}
-.front > .row{
-    min-height: 400px;
+    display: flex;
+    align-items: center;
+    max-width: 700px;
+    min-height: 500px;
+   
 }
 .title{
     font-size: 40px;
     font-weight: bold;
-    font-family: 'Rubik', sans-serif;
+    padding: 20px 0;  
 }
 .text{
-    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+.button{
+    padding: 0 10px;
+    border-radius: 20px;
+    border: 1px solid black;
 }
 
 /* terzo blocco */
