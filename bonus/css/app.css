@@ -62,6 +62,12 @@ a{
     color: white;
     padding: 0 8px;
 }
+svg{
+    overflow: unset;
+}
+#turn{
+    
+}
 
 /* inizio zona header  */
 
