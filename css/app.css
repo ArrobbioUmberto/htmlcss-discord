@@ -265,3 +265,8 @@ li{
     color:white;
     font-size: 13px;
 }
+ul img{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+}
